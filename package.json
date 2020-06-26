@@ -1,11 +1,21 @@
 {
-  "name": "frontend-challenge2020-blas-medina",
-  "version": "0.0.1",
+  "name": "@blasmedina/frontend-challenge2020-blas-medina",
+  "author": "Blas Medina <r.blas.m.c@gmail.com>",
+  "description": "Frontend Challenge 2020 Blas Medina",
+  "license": "UNLICENSED",
+  "version": "0.0.2",
   "peerDependencies": {
     "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.11"
   },
   "dependencies": {
     "tslib": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:blasmedina/frontend-challenge2020-blas-medina.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
