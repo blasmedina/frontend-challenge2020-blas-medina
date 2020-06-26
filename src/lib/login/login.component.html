@@ -1,0 +1,18 @@
+<h1>Bienvenido a tu Test</h1>
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label>
+      Usuario:
+      <input type="email" formControlName="username" required />
+    </label>
+  </div>
+  <div>
+    <label>
+      Contraseña:
+      <input type="password" formControlName="password" required />
+    </label>
+  </div>
+  <div>
+    <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+  </div>
+</form>
